@@ -508,7 +508,7 @@ textarea:focus {
 .wd_about_infobox h2{
 	float:left;
 	width:100%;
-	font-size:30px;
+	font-size:45px;
 	text-transform:capitalize;
 	color:#ffa500;
 }
@@ -579,7 +579,7 @@ textarea:focus {
 .wd_about_infobox_date{
 	float:left;
 	width:100%;
-	padding:25px 60px;
+	padding:15px 60px;
 }
 .wd_about_infobox_date p{
     float: left;
@@ -599,12 +599,19 @@ textarea:focus {
 .wd_about_infobox_date h3{
     float: left;
     width: 100%;
-    font-size: 30px;
+    font-size: 40px;
     color: #ffa500;
     text-transform: uppercase;
     font-family: 'Lora', serif;
     margin-top: 10px;
 }
+.wd_about_infobox_date h4{
+	font-size: 35px;
+}
+.wd_about_infobox_date a{
+	font-size: 20px;
+}
+
 .wd_timer_wrapper{
 	float:left;
 	width:100%;
@@ -842,8 +849,11 @@ textarea:focus {
     float: left;
     width: 100%;
     color: #ffa500;
-    font-size: 30px;
+    font-size: 45px;
     margin: 0px;
+}
+.wd_event_infobox h3{
+	font-size: 35px;
 }
 .wd_event_infobox h1{
     display: inline-block;
