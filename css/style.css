@@ -33,16 +33,16 @@ body, html{
 	font-family: 'Lora', serif;
 	font-size: 16px;
 	line-height: 23px;
-	color: #ec0089;
+	color: #ffa500;
 	overflow-x: hidden;
 }
 /*---------- Custom Css Start -------*/
 a {
-	color: #797979;
+	color: #ffa500;
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #707070;
+	color: #ffa500;
 	text-decoration: none;
 }
 a:focus {
@@ -291,7 +291,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_main_menu ul li a:hover, .wd_main_menu ul li.active a{
-	color: #81c683;
+	color: #ffa500;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -334,7 +334,7 @@ textarea:focus {
 	color:#ffffff;
 	text-transform:uppercase;
     font-weight: normal;
-	background-color: #81c683;
+	background-color: #ffa500;
 	text-align:center;
 	-webkit-border-radius:50px;
 	-moz-border-radius:50px;
@@ -366,7 +366,7 @@ textarea:focus {
 	color:#ffffff;
 	text-transform:uppercase;
     font-weight: normal;
-	background-color: #81c683;
+	background-color: #ffa500;
 	text-align:center;
 	-webkit-border-radius:50px;
 	-moz-border-radius:50px;
@@ -408,7 +408,7 @@ textarea:focus {
 	width:100%;
 	margin:0px;
 	font-size:18px;
-	color:#81c683;
+	color:#ffa500;
 	font-family: 'Lora', serif;
 }
 .wd_heading img{
@@ -418,10 +418,7 @@ textarea:focus {
 .wd_about_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/about_bg.jpg);
-	background-size:cover;
-	background-position:100% 100%;
-	background-repeat:no-repeat;
+	background-color: #ec0089;
 }
 .wd_about_infobox{
 	float:left;
@@ -444,7 +441,7 @@ textarea:focus {
     left: -80px;
     right: 0px;
     margin: 0px auto;
-    background-color: #81c683;
+    background-color: #ffa500;
     height: 150px;
     -webkit-border-radius: 150px 150px 0px 0px;
     -moz-border-radius: 150px 150px 0px 0px;
@@ -463,7 +460,7 @@ textarea:focus {
     left: 0;
     right: -80px;
     margin: 0px auto;
-    background-color: #81c683;
+    background-color: #ffa500;
     height: 150px;
     -webkit-border-radius: 0px 0px 150px 150px;
     -moz-border-radius: 0px 0px 150px 150px;
@@ -509,7 +506,7 @@ textarea:focus {
 	width:100%;
 	font-size:30px;
 	text-transform:capitalize;
-	color:#81c683;
+	color:#ffa500;
 }
 .wd_about_infobox p{
 	float:left;
@@ -547,9 +544,9 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_about_infobox ul li a:hover{
-	background-color:#81c683;
+	background-color:#ffa500;
 	color:#ffffff;
-	border:1px solid #81c683;
+	border:1px solid #ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -569,7 +566,7 @@ textarea:focus {
     bottom: 10px;
     right: 0px;
     width: 70%;
-    border-bottom: 1px solid #81c683;
+    border-bottom: 1px solid #ffa500;
 }
 .wd_about_infobox h1{
     display: inline-block;
@@ -600,7 +597,7 @@ textarea:focus {
     float: left;
     width: 100%;
     font-size: 30px;
-    color: #81c683;
+    color: #ffa500;
     text-transform: uppercase;
     font-family: 'Lora', serif;
     margin-top: 10px;
@@ -640,7 +637,7 @@ textarea:focus {
 #clockdiv{
     float: left;
     width: 100%;
-    color: #81c683;
+    color: #ffa500;
     display: inline-block;
     text-align: center;
     font-size: 70px;
@@ -744,7 +741,7 @@ textarea:focus {
     text-align: center;
 }
 .wd_story_dot span{
-    background-color: #81c683;
+    background-color: #ffa500;
     width: 15px;
     height: 15px;
     -webkit-border-radius: 100%;
@@ -808,7 +805,7 @@ textarea:focus {
 	float:left;
 	width:100%;
 	font-size:16px;
-	color:#81c683;
+	color:#ffa500;
 	text-transform:uppercase;
 }
 .wd_story_covers_box_datails h1{
@@ -830,12 +827,7 @@ textarea:focus {
 .wd_event_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/event_bg.jpg);
-	background-size:cover;
-	background-position:100% 100%;
-	background-repeat:no-repeat;
-    position: relative;
-	z-index:0;
+	background-color: #ec0089
 }
 .wd_event_infobox{
 	float:left;
@@ -846,7 +838,7 @@ textarea:focus {
 .wd_event_infobox h2{
     float: left;
     width: 100%;
-    color: #81c683;
+    color: #ffa500;
     font-size: 30px;
     margin: 0px;
 }
@@ -875,7 +867,7 @@ textarea:focus {
 	margin-bottom:30px;
 }
 .wd_event_infobox p a{
-	color:#81c683;
+	color:#ffa500;
 }
 .wd_event_infobox img{
 	display:inline-block;
@@ -922,7 +914,7 @@ textarea:focus {
 	margin:0px 0px 30px 0px;
 }
 .wd_guest_infobox h2 span{
-	color:#81c683;
+	color:#ffa500;
 }
 .wd_guest_infobox h4{
     float: left;
@@ -954,7 +946,7 @@ textarea:focus {
 .wd_guest_formbox h4{
     float: left;
     width: 100%;
-    color: #81c683;
+    color: #ffa500;
     font-size: 30px;
     margin: 15px 0px 45px 0px;
 }
@@ -997,7 +989,7 @@ textarea:focus {
     background: #555555;
 }
 .wd_guest_slider .owl-theme .owl-dots .owl-dot.active span, .wd_guest_slider .owl-theme .owl-dots .owl-dot:hover span {
-    background: #81c683;
+    background: #ffa500;
 }
 .wd_guest_slider .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 50px;
@@ -1006,7 +998,7 @@ textarea:focus {
 .wd_testimonial_wrapper{
 	float:left;
 	width:100%;
-	background-color:#81c683;
+	background-color:#ffa500;
 }
 .wd_testimonial_slider{
 	float:left;
@@ -1100,7 +1092,7 @@ textarea:focus {
 	background:none;
 }
 .wd_family_tabbox .nav > li > a:hover p, .wd_family_tabbox .nav > li.active > a:hover p{
-	color: #81c683;
+	color: #ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1108,7 +1100,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_family_tabbox .nav > li > a:hover img, .wd_family_tabbox .nav > li.active > a:hover img{
-	border: 4px solid #81c683;
+	border: 4px solid #ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1125,7 +1117,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_family_tabbox .nav-tabs > li.active > a p, .wd_family_tabbox .nav-tabs > li.active > a:hover p, .wd_family_tabbox .nav-tabs > li.active > a:focus p{
-	color: #81c683;
+	color: #ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1133,7 +1125,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_family_tabbox .nav-tabs > li.active > a img, .wd_family_tabbox .nav-tabs > li.active > a:hover img, .wd_family_tabbox .nav-tabs > li.active > a:focus img{
-	border: 4px solid #81c683;
+	border: 4px solid #ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1213,7 +1205,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_family_slider .owl-theme .owl-nav [class*='owl-']:hover {
-    background: #81c683;
+    background: #ffa500;
     color: #ffffff;
     text-decoration: none;
     -webkit-transition: all 0.5s;
@@ -1269,7 +1261,7 @@ textarea:focus {
 	width:auto !important;
 }
 .wd_family_infobox:hover .wd_family_infobox_img img{
-	border:4px solid #81c683;
+	border:4px solid #ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1284,7 +1276,7 @@ textarea:focus {
 	color:#111111;
 }
 .wd_family_infobox:hover h2{
-	color:#81c683;
+	color:#ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1327,9 +1319,9 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_family_infobox ul li a:hover{
-	background-color:#81c683;
+	background-color:#ffa500;
 	color:#ffffff;
-	border:1px solid #81c683;
+	border:1px solid #ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1349,7 +1341,7 @@ textarea:focus {
     bottom: 10px;
     right: 0px;
     width: 70%;
-    border-bottom: 1px solid #81c683;
+    border-bottom: 1px solid #ffa500;
 }
 .wd_family_infobox h1{
     display: inline-block;
@@ -1448,7 +1440,7 @@ textarea:focus {
 }
 .ast_glr_overlay a{
     float: right;
-    color: #81c683;
+    color: #ffa500;
     width: 40px;
     border: 1px solid rgba(129, 198, 131, 0.5);
     text-align: center;
@@ -1461,7 +1453,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .ast_glr_overlay a:hover{
-    border: 1px solid #81c683;
+    border: 1px solid #ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1481,7 +1473,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_gallery_slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    border: 1px solid #81c683;
+    border: 1px solid #ffa500;
 	background: #383838;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -1539,7 +1531,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_blog_info ul li a:hover{
-	color:#81c683;
+	color:#ffa500;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1547,7 +1539,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_blog_info ul li a i{
-	color:#81c683;
+	color:#ffa500;
 	margin-right:5px;
 }
 .wd_blog_info p{
@@ -1650,7 +1642,7 @@ textarea:focus {
 	border:1px solid transparent;
 }
 .wd_contact_form .wd_btn button:hover{
-	border:1px solid #81c683;
+	border:1px solid #ffa500;
 }
 .wd_contact_form input::-webkit-input-placeholder, .wd_contact_form textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	color: #ffffff;
@@ -1705,7 +1697,7 @@ textarea:focus {
     width: 120px;
     height: 120px;
     line-height: 120px;
-    background-color: #81c683;
+    background-color: #ffa500;
     color: #ffffff;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -1768,7 +1760,7 @@ textarea:focus {
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    background-color: #81c683;
+    background-color: #ffa500;
 }
 /*-- Responsive css Start --*/
 @media (max-width: 1200px) {}
@@ -1938,7 +1930,7 @@ textarea:focus {
     font-size: 16px;
     color: #ffffff;
     border-radius: 3px;
-	background-color: #81c683;
+	background-color: #ffa500;
 }
 .wd_menu_btn:hover, .wd_menu_btn:focus{
 	outline:none;
@@ -1962,7 +1954,7 @@ textarea:focus {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-	background-color: #81c683;
+	background-color: #ffa500;
 }
 .wd_main_menu_wrapper {
     width: 300px;
@@ -1998,7 +1990,7 @@ textarea:focus {
 .wd_main_menu ul li a:hover, .wd_main_menu ul li a.active {
     border: 0px;
 	background-color:#ffffff;
-	color:#81c683;
+	color:#ffa500;
 }
 .menu_fixed .wd_main_menu ul li a {
     padding: 15px;
