@@ -880,10 +880,7 @@ textarea:focus {
 .wd_guest_wrapper{
 	float:left;
 	width:100%;
-	background-image:url(../images/content/guest_bg.jpg);
-	background-size:cover;
-	background-position:100% 100%;
-	background-repeat:no-repeat;
+	background-color: #ffffff;
     position: relative;
 	z-index:0;
 }
