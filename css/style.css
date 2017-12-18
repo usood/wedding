@@ -54,6 +54,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-weight:400;
 	color: #222222;
 }
+
+h4{
+	font-size: 30px;
+}
 input, select, button {
 	outline: none;
 }
@@ -407,7 +411,7 @@ textarea:focus {
 	float:left;
 	width:100%;
 	margin:0px;
-	font-size:18px;
+	font-size:40px;
 	color:#ffa500;
 	font-family: 'Lora', serif;
 }
