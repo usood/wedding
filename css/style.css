@@ -3,12 +3,12 @@
 
 Project:	Wedding
 Version:	1.0.0
-Author: 
-Website: 
-Purchase: 
+Author:
+Website:
+Purchase:
 -------------------------------------------------------------------
 [Table of contents]
- 
+
 1. Body
 2. Custom css / a
 3. Preloader/ #preloader
@@ -242,7 +242,7 @@ textarea:focus {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}	
+}
 .wd_logo{
     float: left;
     width: 100%;
@@ -492,6 +492,14 @@ textarea:focus {
 }
 .wd_about_infobox_img img{
 	display:inline-block;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	border-radius:100%;
+}
+.wd_about_infobox_img video{
+	display:inline-block;
+	height: 100%;
+	width: 100%;
 	-webkit-border-radius:100%;
 	-moz-border-radius:100%;
 	border-radius:100%;
@@ -1473,7 +1481,7 @@ textarea:focus {
     transition: all 0.5s;
 }
 .wd_gallery_slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    border: 1px solid #81c683;   
+    border: 1px solid #81c683;
 	background: #383838;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
